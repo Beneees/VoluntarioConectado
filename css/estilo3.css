@@ -1,0 +1,107 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+header {
+    background-color: rgba(150, 31, 31, 0.5); 
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo img {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+
+.logo-text {
+  font-size: 1.5em;
+  margin-left: 10px;
+}
+
+
+nav {
+  display: flex;
+}
+
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+
+nav a:hover{
+  color: #914d4d;
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+
+.main-section, .oportunidades-section, .comunidade-section {
+  margin-bottom: 20px;
+}
+
+
+section.module.content {
+  justify-content: center;
+  padding: 40px 0;
+  background: #ffffff;
+}
+
+
+section.module.parallax {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh !important;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+
+section.module.parallax:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 8;
+  /* Ordem de empilhamento, elementos com z-index maior aparecem acima */
+}
+
+
+section.module.parallax-2 {
+  background-image: url("../img/MeioAmbiente3.jpg");
+}
+
+
+section.module.parallax-3 {
+  background-image: url("../img/Idosos2.webp");
+}
+
+
+
+
+
